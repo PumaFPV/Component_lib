@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SS4-30-3.50-L-D-K-TR
+D Samtec SS4 Series 0.4mm 60 Way 2 Row Straight PCB Socket Surface Mount Board to Board
+K
+F http://www.mouser.com/datasheet/2/527/ss4-1370331.pdf
+$ENDCMP
+#
+#End Doc Library
