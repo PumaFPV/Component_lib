@@ -12,4 +12,10 @@ K
 F http://www.mouser.com/datasheet/2/527/ss4-1370331.pdf
 $ENDCMP
 #
+$CMP TC358748XBG_EL_
+D IC MIPI CSI2 TO PARALLEL 80VFBGA
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=30612&prodName=TC358748XBG
+$ENDCMP
+#
 #End Doc Library
