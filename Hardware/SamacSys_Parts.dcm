@@ -2,20 +2,23 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP NE555DR
 D Single Precision Timer
-K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP SS4-30-3.50-L-D-K-TR
 D Samtec SS4 Series 0.4mm 60 Way 2 Row Straight PCB Socket Surface Mount Board to Board
-K
 F http://www.mouser.com/datasheet/2/527/ss4-1370331.pdf
 $ENDCMP
 #
 $CMP TC358748XBG_EL_
 D IC MIPI CSI2 TO PARALLEL 80VFBGA
+F https://www.mouser.ch/ProductDetail/Toshiba/TC358748XBGEL?qs=81r%252BiQLm7BSy1DYUff6vuQ%3D%3D
+$ENDCMP
+#
+$CMP 1734260-3
+D 1.25 WTB HDR SMT, 3 POS
 K
-F https://toshiba.semicon-storage.com/info/docget.jsp?did=30612&prodName=TC358748XBG
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3
 $ENDCMP
 #
 #End Doc Library
