@@ -1,6 +1,78 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1734260-3
+#
+DEF 1734260-3 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1734260-3" 750 200 50 H V L CNN
+F2 "17342603" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3" 750 0 50 H I L CNN
+F4 "1.25 WTB HDR SMT, 3 POS" 750 -100 50 H I L CNN "Description"
+F5 "4.95" 750 -200 50 H I L CNN "Height"
+F6 "571-1734260-3" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1734260-3?qs=7ZTVDHT733zwnL%2FzwsMhIg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1734260-3" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# L1210R2R2MDWIT
+#
+DEF L1210R2R2MDWIT L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "L1210R2R2MDWIT" 650 150 50 H V L CNN
+F2 "INDC3225X270N" 650 50 50 H I L CNN
+F3 "" 650 -50 50 H I L CNN
+F4 "Inductor Chip Wirewound 2.2uH 20% 100KHz 1.13A 80mOhm DCR 1210 T/R" 650 -150 50 H I L CNN "Description"
+F5 "2.7" 650 -250 50 H I L CNN "Height"
+F6 "80-L1210R2R2MDWIT" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/L1210R2R2MDWIT?qs=v1sh8PPj49i7zaK1i33Fzg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "L1210R2R2MDWIT" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MP2332HGTL-P
+#
+DEF MP2332HGTL-P IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MP2332HGTL-P" 850 200 50 H V L CNN
+F2 "SOTFL50P160X60-8N" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators High-Efficiency, 2A, 18V, 1200kHz, Synchronous, Step-Down Converter" 850 -100 50 H I L CNN "Description"
+F5 "0.6" 850 -200 50 H I L CNN "Height"
+F6 "946-MP2332HGTL-P" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2332HGTL-P?qs=%252B6g0mu59x7LDoxfvqJ695A%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Monolithic Power Systems (MPS)" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MP2332HGTL-P" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X PG 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X SW 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X BST 5 1000 0 200 L 50 50 0 0 P
+X EN 6 1000 -100 200 L 50 50 0 0 P
+X SS 7 1000 -200 200 L 50 50 0 0 P
+X FB 8 1000 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # NE555DR
 #
 DEF NE555DR IC 0 30 Y Y 1 F N
@@ -207,26 +279,26 @@ X VDDIO_4 K9 1700 -3800 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model 1734260-3
-#/1563477/32905/2.49/5/2/Connector
-DEF 1734260-3 J 0 30 Y Y 1 F N
-F0 "J" 750 300 50 H V L CNN
-F1 "1734260-3" 750 200 50 H V L CNN
-F2 "17342603" 750 100 50 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3" 750 0 50 H I L CNN
-F4 "1.25 WTB HDR SMT, 3 POS" 750 -100 50 H I L CNN "Description"
-F5 "4.95" 750 -200 50 H I L CNN "Height"
-F6 "571-1734260-3" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1734260-3?qs=7ZTVDHT733zwnL%2FzwsMhIg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "1734260-3" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+#SamacSys ECAD Model GRM158R60J226ME01D
+#/13612085/32905/2.49/2/3/Capacitor
+DEF GRM158R60J226ME01D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM158R60J226ME01D" 350 150 50 H V L CNN
+F2 "CAPC1005X80N" 350 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R60J226ME01-01A.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402(1005M)/X5R/22uF/ +/-20%/6.3V Special 0.8 +0/-0.1mm Thickness" 350 -150 50 H I L CNN "Description"
+F5 "0.8" 350 -250 50 H I L CNN "Height"
+F6 "81-GRM158R60J226ME1D" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM158R60J226ME01D?qs=hd1VzrDQEGhRlVgN8RQ1oA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRM158R60J226ME01D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X 1 1 900 0 200 L 50 50 0 0 P
-X 2 2 900 -100 200 L 50 50 0 0 P
-X 3 3 900 -200 200 L 50 50 0 0 P
-X MP1 MP1 0 0 200 R 50 50 0 0 P
-X MP2 MP2 0 -100 200 R 50 50 0 0 P
-P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
 ENDDRAW
 ENDDEF
 #

@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1734260-3
+D 1.25 WTB HDR SMT, 3 POS
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3
+$ENDCMP
+#
+$CMP L1210R2R2MDWIT
+D Inductor Chip Wirewound 2.2uH 20% 100KHz 1.13A 80mOhm DCR 1210 T/R
+F https://www.mouser.ch/ProductDetail/KEMET/L1210R2R2MDWIT?qs=v1sh8PPj49i7zaK1i33Fzg%3D%3D
+$ENDCMP
+#
+$CMP MP2332HGTL-P
+D Switching Voltage Regulators High-Efficiency, 2A, 18V, 1200kHz, Synchronous, Step-Down Converter
+F https://www.mouser.ch/ProductDetail/Monolithic-Power-Systems-MPS/MP2332HGTL-P?qs=sGAEpiMZZMv0NwlthflBixco2JzT2YQP2viPyQ9Bsfc%3D
+$ENDCMP
+#
 $CMP NE555DR
 D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
@@ -15,10 +30,10 @@ D IC MIPI CSI2 TO PARALLEL 80VFBGA
 F https://www.mouser.ch/ProductDetail/Toshiba/TC358748XBGEL?qs=81r%252BiQLm7BSy1DYUff6vuQ%3D%3D
 $ENDCMP
 #
-$CMP 1734260-3
-D 1.25 WTB HDR SMT, 3 POS
+$CMP GRM158R60J226ME01D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402(1005M)/X5R/22uF/ +/-20%/6.3V Special 0.8 +0/-0.1mm Thickness
 K
-F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R60J226ME01-01A.pdf
 $ENDCMP
 #
 #End Doc Library
