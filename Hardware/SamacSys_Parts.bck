@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1734260-3
+D 1.25 WTB HDR SMT, 3 POS
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734260%7FA%7Fpdf%7FEnglish%7FENG_CD_1734260_A.pdf%7F1734260-3
+$ENDCMP
+#
+$CMP 74LVC1G08GV,125
+D NEXPERIA - 74LVC1G08GV,125 - LOGIC, AND GATE, DUAL I/P, SC-74A-5
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+$ENDCMP
+#
+$CMP BGS12WN6E6327XTSA1
+D RF Switch ICs CMOS SWITCH{0000}
+F https://www.infineon.com/dgdl/Infineon-BGS12WN6-DataSheet-v01_00-EN.pdf?fileId=5546d4626b2d8e69016b89d2b3334727
+$ENDCMP
+#
+$CMP GRM158R60J226ME01D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402(1005M)/X5R/22uF/ +/-20%/6.3V Special 0.8 +0/-0.1mm Thickness
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R60J226ME01-01A.pdf
+$ENDCMP
+#
+$CMP L1210R2R2MDWIT
+D Inductor Chip Wirewound 2.2uH 20% 100KHz 1.13A 80mOhm DCR 1210 T/R
+F https://www.mouser.ch/ProductDetail/KEMET/L1210R2R2MDWIT?qs=v1sh8PPj49i7zaK1i33Fzg%3D%3D
+$ENDCMP
+#
+$CMP MP2332HGTL-P
+D Switching Voltage Regulators High-Efficiency, 2A, 18V, 1200kHz, Synchronous, Step-Down Converter
+F https://www.mouser.ch/ProductDetail/Monolithic-Power-Systems-MPS/MP2332HGTL-P?qs=sGAEpiMZZMv0NwlthflBixco2JzT2YQP2viPyQ9Bsfc%3D
+$ENDCMP
+#
+$CMP NCV8718BMT330TBG
+D LDO Voltage Regulators 300 MA LOW IQ, WIDE INPUT VOLTAGE LDO - WDFN6
+F https://www.onsemi.com/pub/Collateral/NCV8718-D.PDF
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SS4-30-3.50-L-D-K-TR
+D Samtec SS4 Series 0.4mm 60 Way 2 Row Straight PCB Socket Surface Mount Board to Board
+F http://www.mouser.com/datasheet/2/527/ss4-1370331.pdf
+$ENDCMP
+#
+$CMP TC358748XBG_EL_
+D IC MIPI CSI2 TO PARALLEL 80VFBGA
+F https://www.mouser.ch/ProductDetail/Toshiba/TC358748XBGEL?qs=81r%252BiQLm7BSy1DYUff6vuQ%3D%3D
+$ENDCMP
+#
+$CMP TC7WH74FK,LJ_CT
+D TOSHIBA - TC7WH74FK,LJ(CT - Flip-Flop, 7WH74, D, 10.1 ns, 115 MHz, 25 mA, US8
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=54761&prodName=TC7WH74FK
+$ENDCMP
+#
+$CMP U.FL-R-SMT-1_40_
+D RF Connectors / Coaxial Connectors SMT MALE RECEPT AU 50 OHM
+F https://www.arrow.com/en/products/u.fl-r-smt-1-40/hirose-electric
+$ENDCMP
+#
+#End Doc Library
