@@ -65,4 +65,10 @@ D RF Connectors / Coaxial Connectors SMT MALE RECEPT AU 50 OHM
 F https://www.arrow.com/en/products/u.fl-r-smt-1-40/hirose-electric
 $ENDCMP
 #
+$CMP PI3L301DAEX
+D Multiplexer Switch ICs 3.3v 16B to 8B Mux/Demux
+K
+F https://componentsearchengine.com/Datasheets/1/PI3L301DAEX.pdf
+$ENDCMP
+#
 #End Doc Library
