@@ -939,4 +939,54 @@ P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model SM02B-SURS-TF_LF__SN_
+#/798637/32905/2.49/4/4/Connector
+DEF SM02B-SURS-TF_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SM02B-SURS-TF_LF__SN_" 750 200 50 H V L CNN
+F2 "SM02BSURSTFLFSN" 750 100 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/2083122.pdf" 750 0 50 H I L CNN
+F4 "JST (JAPAN SOLDERLESS TERMINALS) - SM02B-SURS-TF(LF)(SN) - HEADER, 0.8MM, SMT, 2WAY" 750 -100 50 H I L CNN "Description"
+F5 "1.75" 750 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SM02B-SURS-TF(LF)(SN)" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SM02B-SURS-TF(LF)(SN)" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sm02b-surs-tf-lf-sn/jst-manufacturing" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SM04B-SURS-TF_LF__SN_
+#/277110/32905/2.49/6/4/Connector
+DEF SM04B-SURS-TF_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SM04B-SURS-TF_LF__SN_" 750 200 50 H V L CNN
+F2 "SM04BSURSTFLFSN" 750 100 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1718811.pdf" 750 0 50 H I L CNN
+F4 "WIRE-BOARD CONNECTOR HEADER, 4 POSITION, 0.8MM; Pitch Spacing:0.8mm; No. of Contacts:4Contacts; Gender:Header; Product Range:SUR Series; Contact Termination Type:IDC / IDT; No. of Rows:1Rows; Contact Plating:Tin Plated Contacts RoHS Compliant: Yes" 750 -100 50 H I L CNN "Description"
+F5 "1.75" 750 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SM04B-SURS-TF(LF)(SN)" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SM04B-SURS-TF(LF)(SN)" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sm04b-surs-tf-lf-sn/jst-manufacturing" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

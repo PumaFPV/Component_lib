@@ -83,4 +83,16 @@ K
 F http://www.jst-mfg.com/product/pdf/eng/eSUR.pdf
 $ENDCMP
 #
+$CMP SM02B-SURS-TF_LF__SN_
+D JST (JAPAN SOLDERLESS TERMINALS) - SM02B-SURS-TF(LF)(SN) - HEADER, 0.8MM, SMT, 2WAY
+K
+F http://www.farnell.com/datasheets/2083122.pdf
+$ENDCMP
+#
+$CMP SM04B-SURS-TF_LF__SN_
+D WIRE-BOARD CONNECTOR HEADER, 4 POSITION, 0.8MM; Pitch Spacing:0.8mm; No. of Contacts:4Contacts; Gender:Header; Product Range:SUR Series; Contact Termination Type:IDC / IDT; No. of Rows:1Rows; Contact Plating:Tin Plated Contacts RoHS Compliant: Yes
+K
+F http://www.farnell.com/datasheets/1718811.pdf
+$ENDCMP
+#
 #End Doc Library
