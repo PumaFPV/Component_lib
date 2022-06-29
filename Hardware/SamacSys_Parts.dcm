@@ -71,4 +71,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/PI3L301DAEX.pdf
 $ENDCMP
 #
+$CMP FH40-20S-0.5SV
+D Hirose FH40 Series 0.5mm Pitch 20 Way 1 Row Straight SMT Female FPC Connector Locking Mechanism, Gold Plated Contacts
+K
+F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH40-20S-0.5SV
+$ENDCMP
+#
 #End Doc Library
