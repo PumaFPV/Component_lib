@@ -77,4 +77,10 @@ K
 F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH40-20S-0.5SV
 $ENDCMP
 #
+$CMP SM10B-SURS-TF_LF__SN_
+D CONN HEADER 10PS .8MM TIN SIDE E
+K
+F http://www.jst-mfg.com/product/pdf/eng/eSUR.pdf
+$ENDCMP
+#
 #End Doc Library
