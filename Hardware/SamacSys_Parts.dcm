@@ -95,4 +95,16 @@ K
 F http://www.farnell.com/datasheets/1718811.pdf
 $ENDCMP
 #
+$CMP FR02C061JA1-R5000
+D FFC & FPC Connectors 61 position 0.2mm pitch 0.82mm height
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/4da8c28c9917729c9c89423a3608f674.pdf
+$ENDCMP
+#
+$CMP FR02C051JA1-R5000
+D FFC & FPC Connectors 51 position 0.2mm pitch 0.82mm height
+K
+F https://www.jae.com/direct/topics/topics_file_download/?topics_id=65105&ext_no=06&index=0&_lang=en
+$ENDCMP
+#
 #End Doc Library
