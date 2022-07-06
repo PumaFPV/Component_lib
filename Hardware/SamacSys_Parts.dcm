@@ -107,4 +107,28 @@ K
 F https://www.jae.com/direct/topics/topics_file_download/?topics_id=65105&ext_no=06&index=0&_lang=en
 $ENDCMP
 #
+$CMP ESP32-PICO-V3
+D RF System on a Chip - SoC Module WiFi LGA Dual Core BT Combo
+K
+F 
+$ENDCMP
+#
+$CMP SX1280IMLTRT
+D RF Transceiver Long range 2.4 GHz Wireless Transceiver
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-37/728740.pdf
+$ENDCMP
+#
+$CMP CP2105-F01-GMR
+D Silicon Labs CP2105-F01-GMR, USB Controller, 2Mbit/s, USB to Dual UART, 24-Pin QFN
+K
+F https://www.silabs.com/documents/public/data-sheets/CP2105.pdf
+$ENDCMP
+#
+$CMP 505110-1292
+D Molex Easy-On Series 0.5mm Pitch 12 Way Right Angle SMT Male FPC Connector, ZIF Bottom Contact
+K
+F https://componentsearchengine.com/Datasheets/1/505110-1292.pdf
+$ENDCMP
+#
 #End Doc Library
