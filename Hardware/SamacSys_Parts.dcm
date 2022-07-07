@@ -131,4 +131,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/505110-1292.pdf
 $ENDCMP
 #
+$CMP SKRPABE010
+D Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 1.57N SMD Automotive T/R
+K
+F https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKRPABE010_C115360.pdf
+$ENDCMP
+#
 #End Doc Library
