@@ -137,4 +137,10 @@ K
 F https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKRPABE010_C115360.pdf
 $ENDCMP
 #
+$CMP ESP32-PICO-D4
+D ESP32-PICO-D4 module
+K
+F http://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 #End Doc Library
