@@ -143,4 +143,10 @@ K
 F http://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
+$CMP 2450FM07D0034T
+D Signal Conditioning Mini 2.45GHz Imped Matchd Frnt-End Fltr
+K
+F https://www.mouser.co.uk/datasheet/2/611/2450FM07D0034-1375634.pdf
+$ENDCMP
+#
 #End Doc Library
