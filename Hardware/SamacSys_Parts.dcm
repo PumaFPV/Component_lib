@@ -149,4 +149,22 @@ K
 F https://www.mouser.co.uk/datasheet/2/611/2450FM07D0034-1375634.pdf
 $ENDCMP
 #
+$CMP 692122030100
+D Wurth Elektronik WR-COM Series, Right Angle Through Hole, Version 3.0 Type A USB Connector, Receptacle
+K
+F https://katalog.we-online.de/em/datasheet/692122030100.pdf
+$ENDCMP
+#
+$CMP FH12-12S-0.5SH_55_
+D HIROSE(HRS) - FH12-12S-0.5SH(55) - SOCKET FFC/FPC, ZIF, 0.5MM, 12WAY
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023459.pdf
+$ENDCMP
+#
+$CMP FH12A-26S-0.5SH_55_
+D Hirose FH12 Series 0.5mm Pitch 26 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts
+K
+F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH12A-26S-0.5SH(55)
+$ENDCMP
+#
 #End Doc Library
