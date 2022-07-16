@@ -167,4 +167,10 @@ K
 F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH12A-26S-0.5SH(55)
 $ENDCMP
 #
+$CMP UMH3NTN
+D Bipolar Transistors - Pre-Biased DUAL NPN 50V 100MA SOT-363
+K
+F https://componentsearchengine.com/Datasheets/2/UMH3NTN.pdf
+$ENDCMP
+#
 #End Doc Library
