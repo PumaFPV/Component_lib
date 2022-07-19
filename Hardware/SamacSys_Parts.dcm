@@ -173,4 +173,10 @@ K
 F https://componentsearchengine.com/Datasheets/2/UMH3NTN.pdf
 $ENDCMP
 #
+$CMP 500334-0160
+D Board to Board & Mezzanine Connectors 0.5 BtB Plg Assy 16C ssy 16Ckt EmbsTp Pkg
+K
+F 
+$ENDCMP
+#
 #End Doc Library
