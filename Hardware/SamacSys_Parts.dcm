@@ -179,4 +179,22 @@ K
 F 
 $ENDCMP
 #
+$CMP 53398-0667
+D Headers & Wire Housings 1.25 WTB WAFER ASSY 6CKT
+K
+F 
+$ENDCMP
+#
+$CMP BQ24075RGTR
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 5.5V
+K
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP MIC5528-3.3YMT-T5
+D LDO Voltage Regulators Single, 500mA LDO w/ Auto Discharge & Internal Enable Pulldown
+K
+F 
+$ENDCMP
+#
 #End Doc Library
