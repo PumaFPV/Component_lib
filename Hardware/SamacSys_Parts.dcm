@@ -197,4 +197,10 @@ K
 F 
 $ENDCMP
 #
+$CMP 2450AT18A100E
+D Antennas 2.45GHz ANTENNA
+K
+F https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
+$ENDCMP
+#
 #End Doc Library
