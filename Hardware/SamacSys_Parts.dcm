@@ -203,4 +203,16 @@ K
 F https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
 $ENDCMP
 #
+$CMP NX2016SA-32M-EXS00A-CS06465
+D CRYSTAL 32MHZ 10PF SMD
+K
+F http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf
+$ENDCMP
+#
+$CMP S1GHE
+D ON SEMICONDUCTOR - S1GHE - RECTIFIER, AEC-Q101, 400V, 1A, SOD-323HE
+K
+F https://www.onsemi.com/pub/Collateral/S1JHE-D.pdf
+$ENDCMP
+#
 #End Doc Library
