@@ -215,4 +215,10 @@ K
 F https://www.onsemi.com/pub/Collateral/S1JHE-D.pdf
 $ENDCMP
 #
+$CMP SP0503BAHTG
+D ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT
+K
+F 
+$ENDCMP
+#
 #End Doc Library
