@@ -32,7 +32,7 @@
   (pad 2 smd rect (at 2.075 -1.075 90) (size 0.650 1.050) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -2.075 1.075 90) (size 0.650 1.050) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.075 1.075 90) (size 0.650 1.050) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\n.degrave\\Desktop\\component_lib\\Hardware\\SamacSys_Parts.3dshapes\\SKRPABE010.stp"
+  (model "C:\\Users\\Nico\\Desktop\\Component_lib\\Hardware\\SamacSys_Parts.3dshapes\\SKRPABE010.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
