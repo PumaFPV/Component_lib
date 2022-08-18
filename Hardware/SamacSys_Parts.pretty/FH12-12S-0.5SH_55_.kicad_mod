@@ -42,4 +42,9 @@
   (pad "12" smd rect (at -2.75 -0.65) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 12725875-20dc-4fc4-b55f-91bee9bae1eb))
   (pad "13" smd rect (at 4.65 2.6) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d43d64bc-c607-4f2d-8a4f-5ce22d48ff29))
   (pad "14" smd rect (at -4.65 2.6) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 558fa5ad-9677-4492-b466-cb4456d0b3c4))
+  (model "C:/Users/Nico/Desktop/Component_lib/Hardware/SamacSys_Parts.3dshapes/FH12-12S-0.5SH_55_.stp"
+    (offset (xyz 18.944 -11.8 -218))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 -180))
+  )
 )

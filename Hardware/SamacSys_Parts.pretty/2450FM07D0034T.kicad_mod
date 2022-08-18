@@ -32,4 +32,9 @@
   (pad "2" smd rect (at 0 0.35) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6012a814-ac4f-4589-b396-343d39f682dc))
   (pad "3" smd rect (at 0.6 0 90) (size 0.55 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d5d66a8f-8c5a-4c9e-bfda-e7e1b69dcd7c))
   (pad "4" smd rect (at 0 -0.35) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 98bacf75-4ea3-49e3-90c1-9ed098d56380))
+  (model "C:/Users/Nico/Desktop/Component_lib/Hardware/SamacSys_Parts.3dshapes/2450AT18A100E.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
