@@ -221,4 +221,10 @@ K
 F 
 $ENDCMP
 #
+$CMP MP6543HGL-P
+D Motor / Motion / Ignition Controllers & Drivers 22V, 2A three-phase power stage(ENABLE and PWM inputs for each 1 half-H-bridge)
+K
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6543HGL-Z/document_id/9087/
+$ENDCMP
+#
 #End Doc Library
