@@ -227,4 +227,10 @@ K
 F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6543HGL-Z/document_id/9087/
 $ENDCMP
 #
+$CMP ESP32-S2FH4
+D ESP32-S2FH4
+K
+F 
+$ENDCMP
+#
 #End Doc Library
