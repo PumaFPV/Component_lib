@@ -227,8 +227,13 @@ K
 F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6543HGL-Z/document_id/9087/
 $ENDCMP
 #
+<<<<<<< Updated upstream
 $CMP ESP32-S2FH4
 D ESP32-S2FH4
+=======
+$CMP SKRHABE010
+D Multi-Directional Switches 4-directn cntr push W/boss 200K Cycles
+>>>>>>> Stashed changes
 K
 F 
 $ENDCMP

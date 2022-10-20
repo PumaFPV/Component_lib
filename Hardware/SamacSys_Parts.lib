@@ -1812,6 +1812,7 @@ P 5 0 1 6 200 500 1100 500 1100 -1100 200 -1100 200 500 N
 ENDDRAW
 ENDDEF
 #
+<<<<<<< Updated upstream
 #SamacSys ECAD Model ESP32-S2FH4
 #/13230220/32905/2.49/57/3/Integrated Circuit
 DEF ESP32-S2FH4 IC 0 30 Y Y 1 F N
@@ -1884,6 +1885,35 @@ X VDD3P3_CPU 45 1500 900 200 D 50 50 0 0 P
 X MTD0 44 1600 900 200 D 50 50 0 0 P
 X MTCK 43 1700 900 200 D 50 50 0 0 P
 P 5 0 1 6 200 700 1800 700 1800 -2200 200 -2200 200 700 N
+=======
+#SamacSys ECAD Model SKRHABE010
+#/729334/32905/2.49/8/4/Switch
+DEF SKRHABE010 S 0 30 Y Y 1 F N
+F0 "S" 1250 500 50 H V L CNN
+F1 "SKRHABE010" 1250 400 50 H V L CNN
+F2 "SKRHABE010" 1250 300 50 H I L CNN
+F3 "" 1250 200 50 H I L CNN
+F4 "Multi-Directional Switches 4-directn cntr push W/boss 200K Cycles" 1250 100 50 H I L CNN "Description"
+F5 "5" 1250 0 50 H I L CNN "Height"
+F6 "ALPS Electric" 1250 -100 50 H I L CNN "Manufacturer_Name"
+F7 "SKRHABE010" 1250 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-SKRHAB" 1250 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRHABE010?qs=seHrhfPpLDxEOwRqoDvYHw%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "SKRHABE010" 1250 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/skrhabe010/alps-electric" 1250 -600 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1250 -700 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1250 -800 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X CENTER 2 0 -100 200 R 50 50 0 0 P
+X C 3 0 -200 200 R 50 50 0 0 P
+X B 4 1400 0 200 L 50 50 0 0 P
+X COMMON 5 1400 -100 200 L 50 50 0 0 P
+X D 6 1400 -200 200 L 50 50 0 0 P
+X 7 7 700 500 200 D 50 50 0 0 P
+X 8 8 700 -700 200 U 50 50 0 0 P
+P 5 0 1 6 200 300 1200 300 1200 -500 200 -500 200 300 N
+>>>>>>> Stashed changes
 ENDDRAW
 ENDDEF
 #
