@@ -238,4 +238,10 @@ K
 F 
 $ENDCMP
 #
+$CMP SN74HC165PWR
+D 8-BIT PARALLEL-LOAD SHIFT REGISTERS
+K
+F http://www.ti.com/lit/gpn/sn74hc165
+$ENDCMP
+#
 #End Doc Library
