@@ -242,4 +242,10 @@ K
 F http://www.ti.com/lit/gpn/sn74hc165
 $ENDCMP
 #
+$CMP ESP32-C3
+D Ultra-Low-Power SoC with RISC-V Single-Core CPU
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
+$ENDCMP
+#
 #End Doc Library
