@@ -248,4 +248,10 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
 $ENDCMP
 #
+$CMP EXB-2HV103JV
+D Resistor Networks & Arrays 10K OHM 5%
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf
+$ENDCMP
+#
 #End Doc Library
