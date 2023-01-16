@@ -2922,7 +2922,7 @@
         (name "CHIP_PU" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 10.16 12.7 270) (length 2.54)
+      (pin passive line (at 50.8 -45.72 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "57" (effects (font (size 1.27 1.27))))
       )
