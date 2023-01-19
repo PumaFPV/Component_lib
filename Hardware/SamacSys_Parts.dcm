@@ -254,4 +254,10 @@ K
 F https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf
 $ENDCMP
 #
+$CMP MA702GQ-P
+D Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs
+K
+F https://www.monolithicpower.com/pub/media/document/m/a/ma702_r1.0.pdf
+$ENDCMP
+#
 #End Doc Library
