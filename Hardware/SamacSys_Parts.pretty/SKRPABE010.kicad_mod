@@ -37,7 +37,7 @@
   (pad "2" smd rect (at 2.075 -1.075 90) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9c14409a-c6ec-412b-8c65-277dd7ea4d02))
   (pad "3" smd rect (at -2.075 1.075 90) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 484fa2b0-614a-4578-afbf-fe3fc50469ff))
   (pad "4" smd rect (at 2.075 1.075 90) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 28fd3fc8-233a-4d52-a556-fd50cf527cce))
-  (model "C:\\Users\\Nico\\Desktop\\Component_lib\\Hardware\\SamacSys_Parts.3dshapes\\SKRPABE010.stp"
+  (model "${COMPONENT_LIB}/SKRPABE010.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
