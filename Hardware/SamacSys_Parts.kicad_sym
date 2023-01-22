@@ -2689,7 +2689,7 @@
     (property "Footprint" "QFN40P700X700X90-57N-D" (id 2) (at 66.04 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "" (id 3) (at 44.45 15.24 0)
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/891/esp32_s2_datasheet_en-1773066.pdf" (id 3) (at 44.45 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Description" "ESP32-S2FH4" (id 4) (at 66.04 -10.16 0)
