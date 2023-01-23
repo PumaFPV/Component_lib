@@ -41,7 +41,7 @@
   (pad "1" smd rect (at 0 1.5) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b505efd0-8f13-438a-8d89-74673cfde38b))
   (pad "2" smd rect (at 1.5 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0e0afb57-6f77-400c-bfc9-ad8c6c1cc817))
   (pad "2" smd rect (at -1.5 0) (size 1.05 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24d8174d-6032-4997-b570-77c802098b33))
-  (model "C:/Users/Nico/Desktop/Component_lib/Hardware/SamacSys_Parts.3dshapes/U.FL-R-SMT-1_40_.stp"
+  (model "${COMPONENT_LIB}/U.FL-R-SMT-1_40_.stp"
     (offset (xyz 55.24 1.1 22.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))
