@@ -260,4 +260,10 @@ K
 F https://www.monolithicpower.com/pub/media/document/m/a/ma702_r1.0.pdf
 $ENDCMP
 #
+$CMP 53261-0371
+D 1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel
+K
+F 
+$ENDCMP
+#
 #End Doc Library
