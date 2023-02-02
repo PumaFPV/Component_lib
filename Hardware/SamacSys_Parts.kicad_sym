@@ -2750,7 +2750,7 @@
     )
   )
   (symbol "ESP32-S2FH4" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (id 0) (at 22.86 -12.7 0)
+    (property "Reference" "U" (id 0) (at 22.86 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP32-S2FH4" (id 1) (at 22.86 -15.24 0)
