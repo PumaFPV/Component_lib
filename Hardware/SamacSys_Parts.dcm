@@ -278,4 +278,10 @@ K
 F https://www.molex.com/pdm_docs/sd/2169900003_sd.pdf
 $ENDCMP
 #
+$CMP USB4510-03-1-A
+D USB Connectors USB C Rec 16P 3u" Mid Mnt 1.6mm O-set SMT L = 6.5mm S-Spring
+K
+F https://gct.co/files/drawings/usb4510.pdf
+$ENDCMP
+#
 #End Doc Library
