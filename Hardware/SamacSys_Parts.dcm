@@ -284,4 +284,10 @@ K
 F https://gct.co/files/drawings/usb4510.pdf
 $ENDCMP
 #
+$CMP FMB3906
+D Fairchild FMB3906 Dual PNP Bipolar Transistor, -0.2 A, -40 V, 6-Pin SOT-23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fb5d1d2d5c62e36ac0b9f252367555e1.pdf
+$ENDCMP
+#
 #End Doc Library
