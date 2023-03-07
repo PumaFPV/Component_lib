@@ -75,7 +75,7 @@
   (pad "MH2" thru_hole oval (at -5.62 1.15) (size 1 2.2) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 0f69542b-21fc-4bc3-8750-7695b8baee49))
   (pad "MH3" thru_hole oval (at 5.62 1.15) (size 1 2.2) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask") (tstamp 43893e7d-5547-4f04-8b50-1c9844426973))
   (pad "MH4" thru_hole oval (at 5.62 -2.85) (size 1 1.8) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (tstamp 4d442bc2-9c89-4dd7-894f-41a31e048e41))
-  (model "C:\\Users\\Nico\\Desktop\\Component_lib\\Hardware\\SamacSys_Parts.3dshapes\\USB4510-03-1-A.stp"
+  (model "${COMPONENT_LIB}/USB4510-03-1-A.stp"
     (offset (xyz 0 -3.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
