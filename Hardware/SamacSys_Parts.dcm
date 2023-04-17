@@ -308,4 +308,16 @@ K
 F https://www.molex.com/pdm_docs/sd/555600607_sd.pdf
 $ENDCMP
 #
+$CMP B3U-1000P
+D OMRON ELECTRONIC COMPONENTS - B3U-1000P - SWITCH, SPST-NO, 0.05A, 12V, SMD
+K
+F https://www.omron.com/ecb/products/pdf/en-b3u.pdf
+$ENDCMP
+#
+$CMP ESP32-S3FN8
+D Espressif Systems [ENGINEERING SAMPLES]SMD IC , Dual-Core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 8 MB Octal SPI PSRAM
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
+$ENDCMP
+#
 #End Doc Library
