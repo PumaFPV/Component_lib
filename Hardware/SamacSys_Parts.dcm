@@ -15,6 +15,12 @@ D RF Switch ICs CMOS SWITCH{0000}
 F https://www.infineon.com/dgdl/Infineon-BGS12WN6-DataSheet-v01_00-EN.pdf?fileId=5546d4626b2d8e69016b89d2b3334727
 $ENDCMP
 #
+$CMP DF56C-40S-0.3V_51_
+D CONN RCPT 40POS 0.012 GOLD SMD
+K
+F https://componentsearchengine.com/Datasheets/1/DF56C-40S-0.3V(51).pdf
+$ENDCMP
+#
 $CMP ER8-40S-0.8SV-5H
 D Board to Board & Mezzanine Connectors HighSpeed Trans RCPT 40P STRGHT 0.76um
 F https://componentsearchengine.com/Datasheets/1/ER8-40S-0.8SV-5H.pdf
