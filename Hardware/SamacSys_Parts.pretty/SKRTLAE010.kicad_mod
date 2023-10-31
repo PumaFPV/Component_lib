@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "SKRTLAE010-4")
   (tags "Switch")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "S**" (at 4 -2) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 94db8158-4d19-4ebf-8900-2133d8b0a351)
