@@ -10,8 +10,6 @@ In footprint editor you can repeat the same process Preference->Configure footpr
 ## 3D
 In footprint editor, select any Component_lib footprints (u.fl for example), in footprint properties, go to 3D model.
 First click "Config Paths" and add COMPONENT_LIB name with the path to the SamacSys_Parts.3dshapes folder. Once this is done all 3D should be visible. If you started a layout without configuring the 3D path you may have to update the footprints of the components.
-click on the + button, and select path 
-
 
 # How to add components:
 You can (and should use Library Loader)
