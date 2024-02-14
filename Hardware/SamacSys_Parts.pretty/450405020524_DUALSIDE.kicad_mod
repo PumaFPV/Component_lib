@@ -22,9 +22,7 @@
   (pad "3" smd rect (at 4 -0.95) (size 1 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 68d52a94-73aa-4c7c-84c4-3089b0bee500))
   (pad "MH" thru_hole circle (at 0 3.1) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 6ffbc041-c1f3-496f-bffa-3f2a6e1e4a03))
-  (pad "MH" thru_hole circle (at 0 3.1) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 927aef58-4b99-47c0-9e0a-31b06812febf))
   (pad "MH" thru_hole circle (at 6.25 3.1) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp bb06daff-d8d2-4a09-ad6e-8a73233c0a1a))
-  (pad "MH" thru_hole circle (at 6.25 3.1) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp eed76e88-c210-4bdd-95ab-0d285a33d52e))
   (model "${COMPONENT_LIB}/450405020524.stp"
     (offset (xyz 3.12 -1.67 0))
     (scale (xyz 1 1 1))
