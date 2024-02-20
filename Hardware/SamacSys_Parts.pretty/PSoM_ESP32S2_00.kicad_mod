@@ -10172,7 +10172,7 @@
     )
   )
   (model "${COMPONENT_LIB}/ESP_S2_SoM_HW00.step"
-    (opacity 0.6400)    (offset (xyz -136.06 106.236 1.51))
+    (offset (xyz -10.06 17.4 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
