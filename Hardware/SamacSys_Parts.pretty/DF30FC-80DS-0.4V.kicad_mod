@@ -187,7 +187,7 @@
     (thermal_bridge_angle 45) (tstamp 98d3c503-e57f-43c1-aa76-e0dd847179c7))
   (pad "80" smd rect (at 7.8 -2.075) (size 0.23 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp cd0e4e20-988c-4777-9135-cec59a086f75))
-  (model ":COMPONENT_LIB:DF30FC-80DS-0.4V.stp"
+  (model "${COMPONENT_LIB}/DF30FC-80DS-0.4V.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -33,8 +33,8 @@
   (pad "4" smd rect (at 1.875 -0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 900959c0-581b-46b0-9d74-eaaf1e8ce362))
   (pad "MP1" smd rect (at 4.425 2.1) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7d5a9ce4-a770-4124-b09b-ddad72ee7d0f))
   (pad "MP2" smd rect (at -4.425 2.1) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9bc39125-7c1a-4ae8-8038-43ad34331188))
-  (model "53261-0471.stp"
-    (offset (xyz 0 -2.719999988 1.799999925))
+  (model "${COMPONENT_LIB}/53261-0471.stp"
+    (offset (xyz 0 -3.22 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
   )

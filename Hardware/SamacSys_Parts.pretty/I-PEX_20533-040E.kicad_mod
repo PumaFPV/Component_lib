@@ -548,7 +548,7 @@
   (pad "S3" smd rect (at 6.305 -1.05) (size 0.8 0.6) (layers "F.Cu" "F.Mask") (tstamp ebf9aa84-9351-4460-bbfb-4e4c2a9fb183))
   (pad "S4" smd rect (at 6.305 1.05) (size 0.8 0.6) (layers "F.Cu" "F.Mask") (tstamp 57558709-3e15-4903-a0ef-95c56f758543))
   (pad "S5" smd rect (at 0 -0.915) (size 0.25 0.75) (layers "F.Cu" "F.Mask") (tstamp 4b84f2a2-a71c-404f-9303-2b7366c1fe6f))
-  (model "${COMPONENT_LIB}/20533-040EC RECE ASS'Y STEP R4 ALL.STEP"
+  (model "${COMPONENT_LIB}/20533-040E.step"
     (offset (xyz 4.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

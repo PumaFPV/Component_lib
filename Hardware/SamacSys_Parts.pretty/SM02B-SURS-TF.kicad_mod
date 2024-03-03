@@ -13,4 +13,9 @@
   (pad "2" smd rect (at 0.4 -0.5) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bed61f4f-e002-41ad-b9d5-4012db81243a))
   (pad "3" smd rect (at -1.7 1.45) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 77afb3d2-4b11-46b2-b042-71016b5568f0))
   (pad "3" smd rect (at 1.7 1.45) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3dc4fe60-0609-4caf-83ff-30e712cd0a91))
+  (model "${COMPONENT_LIB}/SM02B-SURS-TF_LF__SN_.stp"
+    (offset (xyz 0 -0.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

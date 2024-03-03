@@ -55,7 +55,7 @@
   (pad "4" smd rect (at 1.2 -0.875) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c9e6c2e2-7427-4e6f-9903-c75244cc58e5))
   (pad "MP1" smd rect (at -2.5 1.075) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 15214a12-ddbe-4295-98cb-b906d1e3752c))
   (pad "MP2" smd rect (at 2.5 1.075) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2ee335a1-4b56-4292-a8a6-88c6ea61c8ec))
-  (model "C:\\Users\\Nico\\Desktop\\Component_lib\\Hardware\\SamacSys_Parts.3dshapes\\SM04B-SURS-TF_LF__SN_.stp"
+  (model "${COMPONENT_LIB}/SM04B-SURS-TF_LF__SN_.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

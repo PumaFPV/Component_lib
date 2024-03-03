@@ -65,7 +65,7 @@
   (pad "6" smd rect (at 3.575 1.425 90) (size 1 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0c1e2fec-d24d-44a8-9873-a75c719c563d))
   (pad "7" smd rect (at 0 -4.05 90) (size 1.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 01e6fe06-d2d9-4890-b06a-996fae1765c7))
   (pad "8" smd rect (at 0 4.05 90) (size 1.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45a994d9-ea40-4e80-9c4b-6ddff441b96c))
-  (model "C:\\Users\\n.degrave\\Desktop\\component_lib\\Hardware\\SamacSys_Parts.3dshapes\\SKRHABE010.stp"
+  (model "${COMPONENT_LIB}/SKRHABE010.stp"
     (offset (xyz 0 0 1.720000003))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
