@@ -156,7 +156,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "aa000e8c-79a9-4e67-b38c-04b37c54d0da")
 	)
-	(model "${COMPONENT_LIB}/PMK_Side_Conn_F.STEP"
+	(model "${COMPONENT_LIB}/PMK_Side_Conn_M.STEP"
 		(offset
 			(xyz 0 -1.5 -0.85)
 		)
