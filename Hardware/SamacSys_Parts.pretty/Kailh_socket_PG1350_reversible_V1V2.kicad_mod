@@ -1,4 +1,4 @@
-(footprint "Kailh_socket_PG1350_reversible"
+(footprint "Kailh_socket_PG1350_reversible_V1V2"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Kailh_socket_PG1350_reversible"
+	(property "Value" "Kailh_socket_PG1350_reversible_V1V2"
 		(at 0 8.89 0)
 		(layer "F.Fab")
 		(uuid "947d02fc-95ed-4877-aa5d-f963467a3e30")
@@ -1087,6 +1087,13 @@
 		(uuid "3a8470e1-6d07-413e-a664-307583b4c040")
 	)
 	(pad "" np_thru_hole circle
+		(at -5 -5.15 180)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c8718a90-4fdd-48f7-a5fe-e8f77124ce13")
+	)
+	(pad "" np_thru_hole circle
 		(at -5 3.75)
 		(size 3 3)
 		(drill 3)
@@ -1106,6 +1113,13 @@
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(uuid "f530ae38-991b-4fe9-a08b-6d41a6c53128")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 -5.15 180)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c01084b3-a5c4-434b-a2dc-1df51befe256")
 	)
 	(pad "" np_thru_hole circle
 		(at 5 3.75)
