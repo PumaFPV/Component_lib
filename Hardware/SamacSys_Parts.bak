@@ -47346,7 +47346,7 @@
 			)
 		)
 		(property "Footprint" "Component_lib:NPM1300-QEAA-R"
-			(at 31.75 -72.06 0)
+			(at -17.78 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47366,7 +47366,7 @@
 			)
 		)
 		(property "Description" "Power Management IC (PMIC) with battery charging, accurate fuel gauging and advanced system management features."
-			(at 22.86 58.42 0)
+			(at 40.64 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
