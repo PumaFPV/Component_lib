@@ -8763,7 +8763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Component_lib:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Component_lib:830108161301_1.6x1.2mm"
 			(at -35.56 17.78 0)
 			(effects
 				(font
