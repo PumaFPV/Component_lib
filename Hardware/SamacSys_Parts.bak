@@ -64761,7 +64761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UFLRSMT140"
+		(property "Footprint" "Component_lib:u.fl"
 			(at 24.13 2.54 0)
 			(effects
 				(font
