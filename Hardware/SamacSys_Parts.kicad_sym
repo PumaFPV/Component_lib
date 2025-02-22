@@ -7894,7 +7894,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 2.54 7.62 0)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "74HC165BQ115"
+		(property "Footprint" "Component_lib:74HC165BQ115"
 			(at 26.67 -84.76 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
+		(property "Datasheet" "https://www.mouser.ch/ProductDetail/Nexperia/74HC165BQ115?qs=sGAEpiMZZMutXGli8Ay4kE3wRMDwmh%2F%252Bx1Bt%252BJZH3Rg%3D"
 			(at 26.67 -184.76 0)
 			(effects
 				(font
@@ -7933,7 +7933,7 @@
 			)
 		)
 		(property "Description" "74HC(T)165 - 8-bit parallel-in/serial-out shift register@en-us"
-			(at 0 0 0)
+			(at -7.62 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,8 +8148,8 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -33.02 180)
-				(length 2.54)
+				(at 22.86 -30.48 180)
+				(length 2.54) hide
 				(name "GND_2"
 					(effects
 						(font
@@ -59751,7 +59751,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.54 2.54 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59760,7 +59760,7 @@
 			)
 		)
 		(property "Value" "SN74HC165PWR"
-			(at 7.62 2.54 0)
+			(at 7.62 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59768,7 +59768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-16N"
+		(property "Footprint" "Component_lib:SOP65P640X120-16N"
 			(at 30.48 0 0)
 			(effects
 				(font
@@ -60048,7 +60048,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -5.08 0)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -60120,7 +60120,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -2.54 180)
+				(at 22.86 -5.08 180)
 				(length 2.54)
 				(name "QH"
 					(effects
