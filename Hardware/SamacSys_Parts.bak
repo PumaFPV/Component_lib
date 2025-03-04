@@ -58080,7 +58080,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 27.94 25.4 0)
+			(at 27.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58089,7 +58089,7 @@
 			)
 		)
 		(property "Value" "SN65DPHY440SSRHRR"
-			(at 27.94 22.86 0)
+			(at 27.94 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58178,8 +58178,8 @@
 		)
 		(symbol "SN65DPHY440SSRHRR_1_1"
 			(rectangle
-				(start 2.54 20.32)
-				(end 27.94 -40.64)
+				(start 2.54 10.16)
+				(end 27.94 -35.56)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -58225,7 +58225,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 22.86 270)
+				(at 5.08 12.7 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -58243,7 +58243,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 22.86 270)
+				(at 12.7 12.7 270)
 				(length 2.54)
 				(name "VREG_OUT"
 					(effects
@@ -58495,7 +58495,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 22.86 270)
+				(at 7.62 12.7 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -58513,7 +58513,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 22.86 270)
+				(at 10.16 12.7 270)
 				(length 2.54)
 				(name "PRE_CFG1"
 					(effects
@@ -58531,7 +58531,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 22.86 270)
+				(at 17.78 12.7 270)
 				(length 2.54)
 				(name "VSADJ_CFG0"
 					(effects
@@ -58549,7 +58549,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 22.86 270)
+				(at 25.4 12.7 270)
 				(length 2.54)
 				(name "RSTN"
 					(effects
@@ -58567,7 +58567,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -43.18 90)
+				(at 15.24 -38.1 90)
 				(length 2.54)
 				(name "GND"
 					(effects
