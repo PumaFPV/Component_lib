@@ -9792,6 +9792,154 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ATX-12-F-32.000MHz-F05-T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ATX-12-F-32.000MHz-F05-T"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Component_lib:ATX12F32000MHZF05T"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/ProductDetail/ABRACON/ATX-12-F-32.000MHz-F05-T?qs=iLbezkQI%252BsiaCl9MtrWugw%3D%3D"
+			(at -2.54 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32MHz TCXO 0.5ppm 10pF"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LR1121"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ATX-12-F-32.000MHz-F05-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ATX-12-F-32.000MHz-F05-T_1_1"
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "B3U-1000P"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45490,7 +45638,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 10.16 180)
 				(length 2.54)
 				(name "RFIO_HF"
@@ -45508,7 +45656,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 5.08 180)
 				(length 2.54)
 				(name "RFO_HP_LF"
@@ -45526,7 +45674,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 2.54 180)
 				(length 2.54)
 				(name "RFO_LP_LF"
@@ -45544,7 +45692,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -2.54 180)
 				(length 2.54)
 				(name "RFI_P_LF0"
@@ -45562,7 +45710,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -5.08 180)
 				(length 2.54)
 				(name "RFI_N_LF0"
@@ -45652,7 +45800,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 38.1 -35.56 180)
 				(length 2.54)
 				(hide yes)
@@ -45671,7 +45819,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 38.1 -35.56 180)
 				(length 2.54)
 				(hide yes)
@@ -45690,7 +45838,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 38.1 -35.56 180)
 				(length 2.54)
 				(hide yes)
@@ -45709,7 +45857,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 38.1 -35.56 180)
 				(length 2.54)
 				(hide yes)
@@ -45728,7 +45876,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 38.1 -35.56 180)
 				(length 2.54)
 				(hide yes)
@@ -58759,25 +58907,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(text_box "V1 | V2 | State\n 0   |  0  | none\n 0   |  1  | J1\n 1   |  0  | J2\n 1   |  1  | J3\n"
-				(at 20.32 -10.16 0)
-				(size 15.24 -12.7)
-				(margins 1.016 1.016 1.016 1.016)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(face "Roboto")
-						(size 1.27 1.27)
-					)
-					(justify left top)
 				)
 			)
 			(pin passive line
