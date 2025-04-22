@@ -16573,7 +16573,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 10.16 0)
+			(at 12.7 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16582,7 +16582,7 @@
 			)
 		)
 		(property "Value" "BGSA14GN10E6327XTSA1"
-			(at 15.24 7.62 0)
+			(at 12.7 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16741,7 +16741,7 @@
 		(symbol "BGSA14GN10E6327XTSA1_1_1"
 			(rectangle
 				(start 2.54 5.08)
-				(end 17.78 -22.86)
+				(end 17.78 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -16825,7 +16825,7 @@
 			(pin passive line
 				(at 0 -15.24 0)
 				(length 2.54)
-				(name "CTRL1"
+				(name "V1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16843,7 +16843,7 @@
 			(pin passive line
 				(at 0 -17.78 0)
 				(length 2.54)
-				(name "CTRL2"
+				(name "V2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16859,7 +16859,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 7.62 270)
+				(at 10.16 7.62 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -16877,9 +16877,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -22.86 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
-				(name "GND_1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16895,7 +16895,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -22.86 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_2"
@@ -57141,7 +57141,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+		(property "Footprint" "Component_lib:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 			(at 30.48 -17.78 0)
 			(effects
 				(font
@@ -67187,7 +67187,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 12.7 0)
+			(at 15.24 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67196,7 +67196,7 @@
 			)
 		)
 		(property "Value" "RFX2401C"
-			(at 15.24 10.16 0)
+			(at 15.24 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67285,8 +67285,8 @@
 		)
 		(symbol "RFX2401C_1_1"
 			(rectangle
-				(start 2.54 7.62)
-				(end 22.86 -12.7)
+				(start 2.54 2.54)
+				(end 22.86 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -67350,9 +67350,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 10.16 270)
+				(at 12.7 5.08 270)
 				(length 2.54)
-				(name "VDD_1"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67368,7 +67368,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 10.16 270)
+				(at 12.7 5.08 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD_2"
@@ -67387,7 +67387,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_5"
@@ -67406,7 +67406,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_6"
@@ -67425,9 +67425,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
-				(name "GND_1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67443,7 +67443,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_2"
@@ -67462,7 +67462,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_3"
@@ -67481,7 +67481,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_4"
@@ -67518,7 +67518,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -2.54 180)
+				(at 25.4 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "N/C_1"
@@ -67529,25 +67529,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 25.4 -5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "N/C_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67575,7 +67556,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -10.16 180)
+				(at 25.4 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "DNC"
@@ -67594,7 +67575,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -12.7 180)
+				(at 25.4 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "N/C_4"
@@ -67605,6 +67586,25 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "N/C_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -71165,7 +71165,7 @@
 		(symbol "SKY13373-460LF_1_1"
 			(rectangle
 				(start 2.54 5.08)
-				(end 17.78 -22.86)
+				(end 17.78 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -71283,7 +71283,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_4"
@@ -71302,7 +71302,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_5"
@@ -71321,7 +71321,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "EPAD"
@@ -71340,9 +71340,9 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
-				(name "GND_1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -71358,7 +71358,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_2"
@@ -71377,7 +71377,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -25.4 90)
+				(at 10.16 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND_3"
