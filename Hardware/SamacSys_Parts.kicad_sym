@@ -84526,6 +84526,7 @@
 			(pin passive line
 				(at 2.54 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "MH7"
 					(effects
 						(font
@@ -84544,6 +84545,7 @@
 			(pin passive line
 				(at 2.54 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "MH2"
 					(effects
 						(font
@@ -84562,6 +84564,7 @@
 			(pin passive line
 				(at 2.54 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "MH6"
 					(effects
 						(font
@@ -84580,6 +84583,7 @@
 			(pin passive line
 				(at 2.54 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "MH5"
 					(effects
 						(font
@@ -84616,6 +84620,7 @@
 			(pin passive line
 				(at 7.62 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND_2"
 					(effects
 						(font
@@ -84634,6 +84639,7 @@
 			(pin passive line
 				(at 7.62 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND_3"
 					(effects
 						(font
@@ -84652,6 +84658,7 @@
 			(pin passive line
 				(at 7.62 -66.04 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND_4"
 					(effects
 						(font
@@ -84781,42 +84788,6 @@
 			(pin bidirectional line
 				(at 22.86 -15.24 180)
 				(length 2.54)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 22.86 -17.78 180)
-				(length 2.54)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 22.86 -20.32 180)
-				(length 2.54)
 				(name "D+"
 					(effects
 						(font
@@ -84833,7 +84804,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -22.86 180)
+				(at 22.86 -17.78 180)
 				(length 2.54)
 				(name "D+"
 					(effects
@@ -84851,16 +84822,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -27.94 180)
+				(at 22.86 -20.32 180)
 				(length 2.54)
-				(name "RX1-"
+				(name "D-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B10"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84869,7 +84840,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -30.48 180)
+				(at 22.86 -22.86 180)
+				(length 2.54)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 -27.94 180)
 				(length 2.54)
 				(name "RX1+"
 					(effects
@@ -84887,16 +84876,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -35.56 180)
+				(at 22.86 -30.48 180)
 				(length 2.54)
-				(name "TX1-"
+				(name "RX1-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A3"
+				(number "B10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84905,7 +84894,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -38.1 180)
+				(at 22.86 -35.56 180)
 				(length 2.54)
 				(name "TX1+"
 					(effects
@@ -84923,16 +84912,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -43.18 180)
+				(at 22.86 -38.1 180)
 				(length 2.54)
-				(name "RX2-"
+				(name "TX1-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A10"
+				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84941,7 +84930,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -45.72 180)
+				(at 22.86 -43.18 180)
 				(length 2.54)
 				(name "RX2+"
 					(effects
@@ -84959,16 +84948,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -50.8 180)
+				(at 22.86 -45.72 180)
 				(length 2.54)
-				(name "TX2-"
+				(name "RX2-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B3"
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 -50.8 180)
+				(length 2.54)
+				(name "TX2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84979,14 +84986,14 @@
 			(pin bidirectional line
 				(at 22.86 -53.34 180)
 				(length 2.54)
-				(name "TX2+"
+				(name "TX2-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
