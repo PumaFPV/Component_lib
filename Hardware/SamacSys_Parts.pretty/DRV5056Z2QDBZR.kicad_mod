@@ -1,36 +1,237 @@
-(module "SOT95P237X112-3N" (layer F.Cu)
-  (descr "DBZ0003A height 1.12")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P237X112-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.925 -1.77) (end 1.925 -1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 -1.77) (end 1.925 1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 1.77) (end -1.925 1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.925 1.77) (end -1.925 -1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.65 -1.46) (end 0.65 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 -1.46) (end 0.65 1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 1.46) (end -0.65 1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 1.46) (end -0.65 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 -0.51) (end 0.3 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.075 -1.46) (end 0.075 -1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.075 -1.46) (end 0.075 1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.075 1.46) (end -0.075 1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.075 1.46) (end -0.075 -1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.675 -1.5) (end -0.425 -1.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.05 -0.95 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.05 0.95 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.05 0 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (model DRV5056Z2QDBZR.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "DRV5056Z2QDBZR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DBZ0003A height 1.12")
+	(tags "Integrated Circuit")
+	(property "Reference" "U**"
+		(at -0.075 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "d412798c-b8fd-471e-8f06-5f9d67063e1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P237X112-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "41231ae8-9b6a-4760-93bb-abe55d355aeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c06d643c-3c9f-428e-b0ff-9ede25840b51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "062f927d-e74d-40d7-bfec-e626e3d9a300")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.675 -1.5)
+		(end -0.425 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2f269e7-f490-4edd-ad15-8268588d4a30")
+	)
+	(fp_line
+		(start -0.075 -1.46)
+		(end 0.075 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c31207f4-3bad-426c-82ea-d4dba53d4551")
+	)
+	(fp_line
+		(start -0.075 1.46)
+		(end -0.075 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "445a51ff-8d86-4f62-9fc7-9b44f24783b5")
+	)
+	(fp_line
+		(start 0.075 -1.46)
+		(end 0.075 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c179187-ed87-4cbf-bf85-5ee48a9b8b95")
+	)
+	(fp_line
+		(start 0.075 1.46)
+		(end -0.075 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc80d3f9-e27a-4877-b80c-7a84beabbc47")
+	)
+	(fp_line
+		(start -1.925 -1.77)
+		(end 1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "567e6c1d-8656-4bb2-9099-bb47b887886e")
+	)
+	(fp_line
+		(start -1.925 1.77)
+		(end -1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46ef91e6-f9b4-4d57-ab43-691387dec6eb")
+	)
+	(fp_line
+		(start 1.925 -1.77)
+		(end 1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebbd27c8-3410-4b7b-8cf2-8f7fe5f758d7")
+	)
+	(fp_line
+		(start 1.925 1.77)
+		(end -1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4a8e532-5b85-4304-aaa1-bd5a08cdcf4c")
+	)
+	(fp_line
+		(start -0.65 -1.46)
+		(end 0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30856cd1-24cc-4264-9e13-44889c18f244")
+	)
+	(fp_line
+		(start -0.65 -0.51)
+		(end 0.3 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e8eb385-76fe-4ccb-9b5a-011f065b5b96")
+	)
+	(fp_line
+		(start -0.65 1.46)
+		(end -0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59811dac-2275-4e63-ba35-4901aff44dcf")
+	)
+	(fp_line
+		(start 0.65 -1.46)
+		(end 0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68a83a3f-6a83-4295-b6e7-b4fb13cbf09c")
+	)
+	(fp_line
+		(start 0.65 1.46)
+		(end -0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21e3371d-f5e4-450e-bb1c-40067d921041")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1f891ee0-f407-4ce2-b20d-fc4f3a1b11dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1aa4274f-691b-471c-939d-08ed0a4ae65e")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.95 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c48790fb-2490-4a47-b604-af3d339bc015")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c0ff892-4113-4def-a174-79884b024956")
+	)
+	(embedded_fonts no)
+	(model "${COMPONENT_LIB}/DRV5056Z2QDBZR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
