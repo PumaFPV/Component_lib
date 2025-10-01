@@ -89004,7 +89004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "senseFly:AMASS_XT30PW-M"
+		(property "Footprint" "Component_lib:AMASS_XT30PW-M"
 			(at 0 7.62 0)
 			(effects
 				(font
