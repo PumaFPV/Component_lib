@@ -15497,55 +15497,18 @@
 			)
 		)
 		(symbol "BM04B-SURS-TF_LF_1_1"
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 -10.16)
-				)
+			(rectangle
+				(start 2.54 2.54)
+				(end 12.7 -10.16)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 -10.16) (xy 12.7 -10.16)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -10.16) (xy 12.7 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin free line
+			(pin passive line
 				(at 0 0 0)
 				(length 2.54)
 				(name "1"
@@ -15563,7 +15526,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 2.54)
 				(name "2"
@@ -15581,7 +15544,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 2.54)
 				(name "3"
@@ -15599,7 +15562,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 2.54)
 				(name "4"
@@ -15617,7 +15580,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin passive line
 				(at 7.62 -12.7 90)
 				(length 2.54)
 				(name "MP"

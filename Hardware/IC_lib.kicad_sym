@@ -455,7 +455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Toshiba/74HC595DBJ?qs=T%2FywbITssnTkqd02WdSNRg%3D%3D"
+		(property "Datasheet" "https://www.mouser.ch/ProductDetail/Toshiba/74HC595DBJ?qs=T%2FywbITssnTkqd02WdSNRg%3D%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1733,7 +1733,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 16.51 7.62 0)
+			(at 15.24 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Value" "CD74HC4067QRGYRQ1"
-			(at 16.51 5.08 0)
+			(at 15.24 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,6 +1842,24 @@
 				)
 			)
 			(pin passive line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "COMMON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -2.54 -27.94 0)
 				(length 2.54)
 				(name "~{E}"
@@ -1924,24 +1942,6 @@
 					)
 				)
 				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -20.32 0)
-				(length 2.54)
-				(name "COMMON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
