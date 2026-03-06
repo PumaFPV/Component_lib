@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RF Switch ICs CMOS SWITCH{0000}"
+		(property "Description" "RF Switch ICs CMOS SWITCH SP2T"
 			(at 24.13 -2.54 0)
 			(effects
 				(font
@@ -104,6 +104,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SP2T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -275,7 +284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-Pole Quad Throw Antenna Tuning Switch"
+		(property "Description" "Single-Pole Quad Throw Antenna Tuning Switch SP4T"
 			(at 12.7 15.24 0)
 			(effects
 				(font
@@ -331,6 +340,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SP4T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2608,6 +2626,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SP3T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
