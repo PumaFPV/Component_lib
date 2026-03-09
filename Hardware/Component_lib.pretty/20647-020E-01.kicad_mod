@@ -330,7 +330,6 @@
 	)
 	(embedded_fonts no)
 	(model "${COMPONENT_LIB}/20647-020E-01 ASS'Y ACT CLOSE STEP R2 ALL.STEP"
-		(opacity 0.5400)
 		(offset
 			(xyz 0 -0 0)
 		)
