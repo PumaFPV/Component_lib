@@ -11697,6 +11697,36 @@
 					(justify left)
 				)
 			)
+			(text "JTAG Hi"
+				(at 27.94 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 132 1)
+					)
+					(justify right)
+				)
+			)
+			(text "VDD_SPI PD 3V3"
+				(at 27.94 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 132 1)
+					)
+					(justify right)
+				)
+			)
+			(text "ROM msgprint PD"
+				(at 27.94 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 132 1)
+					)
+					(justify right)
+				)
+			)
 			(pin power_in line
 				(at 0 0 0)
 				(length 2.54)

@@ -1831,8 +1831,8 @@
 		)
 		(symbol "AP33771CFBZ-13-FA01_1_1"
 			(rectangle
-				(start 0 2.54)
-				(end 58.42 -17.78)
+				(start 2.54 2.54)
+				(end 60.96 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1841,8 +1841,8 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -2.54 0 0)
+			(pin input line
+				(at 0 0 0)
 				(length 2.54)
 				(name "DP"
 					(effects
@@ -1859,8 +1859,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -2.54 0)
+			(pin input line
+				(at 0 -2.54 0)
 				(length 2.54)
 				(name "DN"
 					(effects
@@ -1877,8 +1877,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -7.62 0)
+			(pin bidirectional line
+				(at 0 -7.62 0)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -1895,8 +1895,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -10.16 0)
+			(pin bidirectional line
+				(at 0 -10.16 0)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -1913,7 +1913,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 5.08 270)
 				(length 2.54)
 				(name "ISENP"
@@ -1931,7 +1931,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 25.4 5.08 270)
 				(length 2.54)
 				(name "VCC"
@@ -1949,8 +1949,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 -20.32 90)
+			(pin power_in line
+				(at 33.02 -20.32 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1967,8 +1967,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -20.32 90)
+			(pin power_in line
+				(at 35.56 -20.32 90)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -1985,7 +1985,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 38.1 5.08 270)
 				(length 2.54)
 				(name "PWR_EN"
@@ -2003,7 +2003,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 50.8 5.08 270)
 				(length 2.54)
 				(name "VOUT"
@@ -2021,8 +2021,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 0 180)
+			(pin power_out line
+				(at 63.5 0 180)
 				(length 2.54)
 				(name "V5V"
 					(effects
@@ -2039,8 +2039,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -5.08 180)
+			(pin output line
+				(at 63.5 -5.08 180)
 				(length 2.54)
 				(name "FLIP"
 					(effects
@@ -2057,8 +2057,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -7.62 180)
+			(pin output line
+				(at 63.5 -7.62 180)
 				(length 2.54)
 				(name "LED"
 					(effects
@@ -2076,7 +2076,7 @@
 				)
 			)
 			(pin passive line
-				(at 60.96 -12.7 180)
+				(at 63.5 -12.7 180)
 				(length 2.54)
 				(name "ISEL"
 					(effects
@@ -2094,7 +2094,7 @@
 				)
 			)
 			(pin passive line
-				(at 60.96 -15.24 180)
+				(at 63.5 -15.24 180)
 				(length 2.54)
 				(name "VSEL"
 					(effects
