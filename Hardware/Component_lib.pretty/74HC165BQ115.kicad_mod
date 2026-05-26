@@ -3,7 +3,7 @@
   (descr "74HC165BQ,115-1")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "U**" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp ff504bf1-9b78-4b5c-81f5-e887ee0c552e)
   )

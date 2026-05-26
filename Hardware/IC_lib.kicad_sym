@@ -2809,6 +2809,615 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CH9120F"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 24.892 10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH9120F"
+			(at 28.448 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Component_lib:WCH9120"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2681747.html"
+			(at 8.89 25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Network serial port transparent transmission chip"
+			(at 8.89 25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "UART ethernet"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CH9120F_0_1"
+			(rectangle
+				(start 2.54 7.62)
+				(end 30.48 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CH9120F_1_1"
+			(pin power_in line
+				(at 17.78 -38.1 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -20.32 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -22.86 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 10.16 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 10.16 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 10.16 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 0 180)
+				(length 2.54)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -2.54 180)
+				(length 2.54)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -7.62 180)
+				(length 2.54)
+				(name "RXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -10.16 180)
+				(length 2.54)
+				(name "RXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -12.7 180)
+				(length 2.54)
+				(name "TXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -15.24 180)
+				(length 2.54)
+				(name "TXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -25.4 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -27.94 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "ACT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "LINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "RSTI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 2.54)
+				(name "XO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "XI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 10.16 270)
+				(length 2.54)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -30.48 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 10.16 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -17.78 0)
+				(length 2.54)
+				(name "CFGEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 -33.02 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20.32 0)
+				(length 2.54)
+				(name "RS485DIR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "CFG0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25.4 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -27.94 0)
+				(length 2.54)
+				(name "TCPCS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "CP2102N-A02-GQFN24R"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2816,7 +3425,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 33.02 15.24 0)
+			(at 30.48 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2827,7 +3436,7 @@
 			)
 		)
 		(property "Value" "CP2102N-A02-GQFN24R"
-			(at 33.02 12.7 0)
+			(at 30.48 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2862,7 +3471,7 @@
 			)
 		)
 		(property "Description" "USB Interface IC USB to UART bridge - QFN24"
-			(at 0 0 0)
+			(at -2.54 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2934,8 +3543,8 @@
 		)
 		(symbol "CP2102N-A02-GQFN24R_1_1"
 			(rectangle
-				(start 5.08 10.16)
-				(end 40.64 -38.1)
+				(start 2.54 2.54)
+				(end 38.1 -45.72)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2945,7 +3554,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -12.7 180)
+				(at 40.64 -20.32 180)
 				(length 2.54)
 				(name "RI_/_CLK"
 					(effects
@@ -2963,7 +3572,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -40.64 90)
+				(at 17.78 -48.26 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2981,7 +3590,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 7.62 0)
+				(at 0 0 0)
 				(length 2.54)
 				(name "D+"
 					(effects
@@ -2999,7 +3608,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 5.08 0)
+				(at 0 -2.54 0)
 				(length 2.54)
 				(name "D-"
 					(effects
@@ -3017,7 +3626,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 12.7 270)
+				(at 22.86 5.08 270)
 				(length 2.54)
 				(name "VIO"
 					(effects
@@ -3035,7 +3644,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 12.7 270)
+				(at 17.78 5.08 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -3053,7 +3662,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 12.7 270)
+				(at 27.94 5.08 270)
 				(length 2.54)
 				(name "VREGIN"
 					(effects
@@ -3071,7 +3680,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 12.7 270)
+				(at 12.7 5.08 270)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -3089,7 +3698,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -17.78 0)
+				(at 0 -25.4 0)
 				(length 2.54)
 				(name "RSTB"
 					(effects
@@ -3107,7 +3716,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 0)
+				(at 0 -7.62 0)
 				(length 2.54)
 				(name "NC_1"
 					(effects
@@ -3125,7 +3734,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -30.48 180)
+				(at 40.64 -38.1 180)
 				(length 2.54)
 				(name "GPIO.3_/_WAKEUP"
 					(effects
@@ -3143,7 +3752,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -27.94 180)
+				(at 40.64 -35.56 180)
 				(length 2.54)
 				(name "GPIO.2_/_RS485"
 					(effects
@@ -3161,7 +3770,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -25.4 180)
+				(at 40.64 -33.02 180)
 				(length 2.54)
 				(name "GPIO.1_/_RXT"
 					(effects
@@ -3179,7 +3788,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -22.86 180)
+				(at 40.64 -30.48 180)
 				(length 2.54)
 				(name "GPIO.0_/_TXT"
 					(effects
@@ -3197,7 +3806,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -20.32 180)
+				(at 40.64 -27.94 180)
 				(length 2.54)
 				(name "SUSPENDB"
 					(effects
@@ -3215,7 +3824,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -2.54 0)
+				(at 0 -10.16 0)
 				(length 2.54)
 				(name "NC_2"
 					(effects
@@ -3233,7 +3842,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -17.78 180)
+				(at 40.64 -25.4 180)
 				(length 2.54)
 				(name "SUSPEND"
 					(effects
@@ -3251,7 +3860,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -2.54 180)
+				(at 40.64 -10.16 180)
 				(length 2.54)
 				(name "CTS"
 					(effects
@@ -3269,7 +3878,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 0 180)
+				(at 40.64 -7.62 180)
 				(length 2.54)
 				(name "RTS"
 					(effects
@@ -3287,7 +3896,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 5.08 180)
+				(at 40.64 -2.54 180)
 				(length 2.54)
 				(name "RXD"
 					(effects
@@ -3305,7 +3914,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 7.62 180)
+				(at 40.64 0 180)
 				(length 2.54)
 				(name "TXD"
 					(effects
@@ -3323,7 +3932,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -7.62 180)
+				(at 40.64 -15.24 180)
 				(length 2.54)
 				(name "DSR"
 					(effects
@@ -3341,7 +3950,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -5.08 180)
+				(at 40.64 -12.7 180)
 				(length 2.54)
 				(name "DTR"
 					(effects
@@ -3359,7 +3968,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -10.16 180)
+				(at 40.64 -17.78 180)
 				(length 2.54)
 				(name "DCD"
 					(effects
@@ -3377,7 +3986,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -40.64 90)
+				(at 20.32 -48.26 90)
 				(length 2.54)
 				(name "EPAD"
 					(effects
@@ -38046,6 +38655,323 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USB3740B-AI9-TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 15.24 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB3740B-AI9-TR"
+			(at 15.24 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "senseFly:USB3740BAI9TR"
+			(at 26.67 -87.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/ProductDetail/Microchip-Technology/USB3740B-AI9-TR?qs=pA5MXup5wxFFkk8V1NniAg%3D%3D"
+			(at 26.67 -187.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MICROCHIP - USB3740B-AI9-TR - USB Interface, High Speed Switch, USB 2.0, 3 V, 5.5 V, QFN, 10 Pins"
+			(at 7.62 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 26.67 -387.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "886-USB3740B-AI9-TR"
+			(at 26.67 -487.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 26.67 -687.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB3740B-AI9-TR"
+			(at 26.67 -787.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "ki_keywords" "USB switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "USB3740B-AI9-TR_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 22.86 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 2.54)
+				(name "DM_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "DP_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -15.24 180)
+				(length 2.54)
+				(name "OE_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -17.78 180)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -10.16 180)
+				(length 2.54)
+				(name "DP_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 2.54)
+				(name "DM_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -22.86 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

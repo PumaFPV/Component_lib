@@ -3,7 +3,7 @@
   (descr "ESP32-PICO-D4_1")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at -0.341 -0.132) (layer "F.SilkS")
+  (fp_text reference "U**" (at -0.341 -0.132) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp a836baad-b932-4b46-88d3-c1bc669621d9)
   )

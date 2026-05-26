@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "RHR0028A")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "U**"
 		(at -0.508 -4.318 0)
 		(layer "F.SilkS")
 		(uuid "46cb47c1-868a-4ba3-87db-4acc59dab40d")

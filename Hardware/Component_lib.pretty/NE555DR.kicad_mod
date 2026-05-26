@@ -3,7 +3,7 @@
   (descr "D (R-PDSO-G8)")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "U**" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 53e80017-1403-4d58-86bc-10c27d108c3a)
   )

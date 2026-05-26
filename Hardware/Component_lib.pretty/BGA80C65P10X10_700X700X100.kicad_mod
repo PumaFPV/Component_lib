@@ -3,7 +3,7 @@
   (descr "TC358840")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "U**" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 51694600-1665-43c2-900f-e4dcc5956c16)
   )
